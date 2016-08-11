@@ -6,29 +6,22 @@
 	float:left;
 	margin: 0 0 0 1.6%;
 }
-
 /* Remove the margin on the first column. Works on all browsers incl. IE7+ */
 .col:first-child { margin-left: 0; }
-
 .row {
 	clear: both;
 	margin: 0 auto;
 	*zoom: 1;
 }
-
 .row:before,
 .row:after {
 	content: "";
 	display: table;
 }
-
 .row:after { clear: both; }
-
-
 /* ==========================================================================
    Twelve Column Grid
    ========================================================================== */
-
 .grid_12_of_12 { width: 100%; }
 .grid_11_of_12 { width: 91.53%; }
 .grid_10_of_12 { width: 83.06%; }
