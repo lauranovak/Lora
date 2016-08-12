@@ -1,0 +1,19 @@
+/*
+Theme Name: Lora
+Author: Laura Novak
+Author URI: http://lauranovak.me/
+Description: Lora is a beautiful, responsive custom theme. It's not a convoluted or confusing framework that's hard to learn or even harder to modify. It's a simple and elegant theme built on HTML5 & CSS3. Its base is a responsive, 12 column grid. It incorporates custom theme options that are easy to modify, a set of common templates, support for WordPress Post Formats and the gorgeous, retina friendly Font Awesome icon font. Lora is WooCommerce compatible, Multilingual Ready and translated into Spanish and Italian. Lora is also compatible with popular page builders such as Visual Composer, Beaver Builder, Divi Builder and the SiteOrigin Page Builder.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, gray, dark, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: lora
+*/
+/* ==========================================================================
+   Default stylings from HTML5 Boilerplate
+   ========================================================================== */
+/* Apply a natural box layout model to all elements - http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+/* Using rem font sizing (Root em’s) with fallback to px for ie8 and below - http://snook.ca/archives/html_and_css/font-size-with-rem */
+body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
