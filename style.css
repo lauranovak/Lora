@@ -22,9 +22,9 @@ body { margin: 0; font-size: 16px; font-size: 1rem; line-height: 1.5; }
 ::-moz-selection { background: #7fff00; color: #000; text-shadow: none; }
 ::selection { background: #7fff00; color: #000; text-shadow: none; }
 
-a { color: #333; text-decoration: underline; }
+a { color: #f44336; text-decoration: none; transition: all 0.3s ease-in-out 0s;}
 a:visited { color: #666; }
-a:hover { color: #b40101; }
+a:hover { color: #d40305; }
 
 menu { padding: 0; }
 
