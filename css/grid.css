@@ -34,3 +34,7 @@
 .grid_3_of_12  { width: 23.8%; }
 .grid_2_of_12  { width: 15.33%; }
 .grid_1_of_12  { width: 6.866%; }
+
+/*http://nicolasgallagher.com/micro-clearfix-hack/
+https://www.sitepoint.com/understanding-css-grid-systems/
+*/
