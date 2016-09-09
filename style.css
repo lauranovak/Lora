@@ -308,3 +308,47 @@ td {
 	font-weight: normal;
 	text-align: left;
 }
+code, pre {
+	border-radius: 3px;
+	color: #555;
+	font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+	font-size: 12px;
+	font-size: 0.75rem;
+	padding: 0 3px 2px;
+	padding: 0 0.1875rem 0.125rem;
+	overflow: auto;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+code {
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	padding: 2px 4px;
+	padding: 0.125rem 0.25rem;
+}
+pre {
+	background-color: #fafafa;
+	border-color: #ddd;
+	border-style: solid;
+	border-width: 1px 1px 1px 11px;
+	margin: 1.7rem 0 1.7rem 0.3rem;
+}
+abbr,
+dfn,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
