@@ -11,7 +11,7 @@
 .row {
 	clear: both;
 	margin: 0 auto;
-	*zoom: 1;
+	*zoom: 1; /* inline conditional statement for IE7 (known as the "star property hack") */
 }
 .row:before,
 .row:after {
