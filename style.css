@@ -143,3 +143,71 @@ hr {
 	margin: 24px;
 	margin: 1.5rem;
 }
+/*
+body {background:#fff;}
+hr {
+  font-family: Arial, sans-serif;  choose the font you like 
+  text-align: center; horizontal centering 
+  line-height: 1px;  vertical centering 
+  height: 1px;  gap between the lines 
+  font-size: 1em; choose font size you like 
+  border-width: 1px 0;  top and bottom borders 
+  border-style: solid;
+  border-color: #676767;
+  margin: 20px 10px; 20px space above/below, 10px left/right
+
+  ensure 1px gap between borders
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  -ms-box-sizing: content-box;
+  -o-box-sizing: content-box;
+  box-sizing: content-box;
+}
+hr:after {
+  content: "§"; section sign
+  color: #676767;
+  display: inline; for vertical centering and background knockout
+  background-color: #fff; same as background color
+  padding: 0 0.5em; size of background color knockout
+}
+ opera doesn't render correctly. hide section sign
+x:-o-prefocus, hr:after {
+  content: "";
+}*/
+ol, ul {
+	list-style: none outside none;
+}
+p, ol, ul, dl, address {
+	margin: 0 0 24px 0;
+	margin: 0 0 1.5rem 0;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+ul ul, ul ol, ol ol, ol ul {
+	margin-bottom: 0;
+}
+dt {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+figure {
+	margin: 1rem 0;
+	margin: 16px 0;
+}
+b, strong {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-style: normal;
+	font-weight: 700;
+}
+em {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: 400;
+}
+strong em, b em {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	font-weight: 700;
+}
