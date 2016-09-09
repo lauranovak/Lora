@@ -4,7 +4,7 @@ Contributors:lauranovak
 Tags: black, gray, dark, light, one-column, two-columns, right-sidebar, fluid-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, featured-image-header, featured-images, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 3.6
 Tested up to: 4.5.2
-Stable tag: 1.3.3
+Stable tag: 1.3.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -19,7 +19,7 @@ If you do decide to use a child theme with Lora, there's no need to use CSS @imp
 
 Lora's base is a responsive, 12 column grid. It uses Normalize to make sure that browsers render all elements more consistently and Mordernizr for detecting HTML5 and CSS3 browser capabilities along with some default stylings from HTML5 Boilerplate.
 
-It incorporates the gorgeous [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon font by Dave Gandy.
+It incorporates the Option Framework(http://wptheming.com/options-framework-theme/) by Devin Price and the gorgeous [Font Awesome](http://fortawesome.github.io/Font-Awesome/) icon font by Dave Gandy.
 
 The main navigation uses the standard WordPress menu. Support for dropdown menus is inluded by default. If you'd like to envoke a button toggle for the main navigation menu on small screens, simply uncomment the two lines from the lora_scripts_styles() function within functions.php to register and enqueue the necessary javascript file, and you're done!
 
@@ -61,10 +61,19 @@ Third Footer Widget Area: Appears in the footer sidebar
 Fourth Footer Widget Area: Appears in the footer sidebar
 
 Custom Header
+The Default logo can be easily changed using the Custom Header feature. You change this in the Appearance > Header menu option
 
 Custom Background
+The background pattern can be changed using the Custom Background feature. You change this in the Appearance > Background menu option
 
 Theme Options
+Additional Theme Options can be found in the Appearance > Theme Options menu option. These include options for:
+Specifying the URL's for various social media networks
+Specifying the banner background image & color
+Specifying the footer color
+Changing the footer credit text
+Hiding the sidebar on WooCommerce templates
+Hiding the WooCommerce breadcrumbs
 
 WooCommerce Support
 
@@ -115,7 +124,7 @@ Free Software Foundation; either version 2 of the License, or (at your option) a
 
 Lora utilises the following awesomeness:
  ahortin, 
- Lora is based on the Quark starter theme made by ahortin.
+ Lora is based on the Quark starter theme made by ahortin.(http://quarktheme.com/)
 [Modernizr](http://modernizr.com), which is licensed under the MIT license
 [Normalize.css](https://github.com/necolas/normalize.css), which is licensed under the MIT license
 [jQuery Validation](http://bassistance.de/jquery-plugins/jquery-plugin-validation) which is dual licensed under the MIT license and GPL licenses
@@ -126,5 +135,5 @@ Lora utilises the following awesomeness:
 
 
 
-= 1.3.3 =
+= 1.3.4 =
 
