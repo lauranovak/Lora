@@ -377,3 +377,35 @@ img.wp-smiley, .rsswidget img {
 	margin-top: 0;
 	padding: 0;
 }
+.entry-content dl.gallery-item {
+	margin: 0;
+}
+.gallery-columns-1 .gallery-item a {
+	max-width: 100%;
+	width: auto;
+}
+.gallery .gallery-icon img {
+	height: auto;
+}
+.gallery {
+	clear: both;
+	margin: 0 auto;
+	*zoom: 1;
+}
+.gallery:before,
+.gallery:after {
+	content: "";
+	display: table;
+}
+.gallery:after {
+	clear: both;
+}
+#primary .entry-content [id^="gallery-"] img {
+	border: none;
+}
+/* Text meant only for screen readers */
+.assistive-text {
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	position: absolute !important;
+}
